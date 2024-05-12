@@ -1,0 +1,10 @@
+{
+	"langName": "english",
+	"menuList": {
+		"home": "Home",
+		"user": "User management",
+		"roles": "Role management",
+		"notice": "Notice Announcement",
+		"logs": "log management"
+	}
+}

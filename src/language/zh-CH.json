@@ -1,0 +1,10 @@
+{
+	"langName": "中文",
+	"menuList": {
+		"home": "主页",
+		"user": "用户管理",
+		"roles": "角色管理",
+		"notice": "通知公告",
+		"logs": "日志管理"
+	}
+}
