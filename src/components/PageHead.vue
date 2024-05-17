@@ -1,10 +1,12 @@
 <template>
   <div class="homePage">
     <div class="headStyle">
-      <div class="logoImg">
-        <img :src="nftLogo" alt="" />
+      <div class="headStyleLeft">
+        <div class="logoImg">
+          <img :src="nftLogo" alt="" />
+        </div>
+        <headInput style="margin-left: 168px" />
       </div>
-      <headInput />
       <div class="headButtonFive">
         <baseButton
           :buttonStyle="{
@@ -119,15 +121,19 @@ export default {
 .homePage {
   .displayAllCenter();
   .headStyle {
-    width: 85%;
+    width: 100%;
     margin-top: 48px;
     .displayAllCenter();
-    justify-content: space-between;
+    justify-content: space-around;
+    .headStyleLeft {
+      .displayAllCenter();
+      justify-content: space-around;
+    }
     .headButtonFive {
-      width: 50%;
-      padding-left: 200px;
       box-sizing: border-box;
       .displayCenter();
+      justify-content: flex-end;
+      padding-right: ;
     }
   }
   .outHead {
